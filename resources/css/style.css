@@ -13,6 +13,9 @@ html, body {
 }
 
 
+/*Header and Navigation*/
+
+
 #header {
 
 	background-color: black;
@@ -54,6 +57,9 @@ html, body {
 	font-size: 22px;
 }
 
+
+/*Mission Statement*/
+
 #mission {
 
 	background-image: url('../images/mission-background.jpg');
@@ -70,13 +76,15 @@ html, body {
 
 	background-color: black;
 	position: relative;
-	top: 310px;
+	top: 290px;
 	margin: 0 auto;
+	padding: 0px 0px 0px 0px;
+
 }
 
 .statement h4 {
 
-	font-size: 16px;
+	font-size: 20px;
 }
 
 
@@ -87,6 +95,7 @@ html, body {
 	width: 1000px;
 	padding-top: 100px;
 	position: relative;
+	top: 100px;
 	left: 130px;
 	align-content: space-between;
 
@@ -94,8 +103,9 @@ html, body {
 
 .tea-month {
 
-	position: relative;
-	left: 10px;
+	position: absolute;
+	left: 320px;
+	bottom: 420px;
 }
 
 .tea {
@@ -115,25 +125,13 @@ html, body {
 	width: 300px;
 }
 
-#tea-list {
 
-	display: flex;
-	flex-wrap: wrap;
-	align-content: space-around;
+.tea-container {
+
 	justify-content: space-around;
-	margin: auto;
 	position: relative;
-
+	top: 100px;
 }
-
-#tea-list .tea { 
-
-	display: inline-block;
-	align-content: space-around;
-
-
-
- }
 
 
 
@@ -143,7 +141,7 @@ html, body {
  #locations-head {
 
 	position: absolute;
-	top: 30px;
+	top: 110px;
 }
 
  #locations {
@@ -152,7 +150,7 @@ html, body {
  	width: 1200px;
  	height: 550px;
  	position: relative;
- 	top:200px;
+ 	top:300px;
  	left: 30px;
 
 
@@ -181,4 +179,49 @@ html, body {
  }
 
 
+/*Contact*/
+
+#contact {
+
+	position: relative;
+	top: 290px;
+
+}
+
+#contact p {
+
+	font-size: 15px;
+}
+
+
+
+/*Copyright*/
+
+#copyright {
+
+	position: relative;
+	top: 310px;
+}
+
+#copyright p {
+
+	text-align: left;
+	font-size: 15px;
+}
+
+
+/* QUESTIONS: 1 ) I do not really know how to create more 
+space in between the featured tea images;
+
+2) I do not know how to minimize the space in 
+between the image and the text and set the space as 10px
+
+3) I do not know how to minimize the space 
+in between two tags, such as the space 
+in between "Our Mission" and the following statement 
+"Handpicked..." && the addresses in the locations setting.
+
+4) I feel like I need to adjust the website a lot in terms of positioning 
+whenever I make changes. I wonder how I can improve and what I do differently 
+to avoid changing positioning a lot whenever I make any small changes to the page. 
 
