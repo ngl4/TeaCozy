@@ -1,0 +1,184 @@
+html, body {
+
+	margin: 0;
+	border: 0;
+	background-color: black;
+	font-family: Helvetica;
+	color: seashell;
+	opacity: 0.9;
+	text-align: center;
+	font-size: 22px;
+	width: 100%;
+
+}
+
+
+#header {
+
+	background-color: black;
+	color: white;
+	position: fixed;
+	height: 69px;
+	width: 100%;
+	z-index: 10;
+	border-bottom: solid seashell 1px;
+}
+
+.navigation img {
+
+	height: 50px;
+	text-align: left;
+	margin-left: 10px;
+	padding-top: 10px;
+
+}
+
+.navigation {
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.navigation li {
+
+	display: inline-block;
+	width: 150px;
+	text-align:  center;
+
+}
+
+.navigation a {
+
+	text-decoration: underline;
+	color: seashell;
+	font-size: 22px;
+}
+
+#mission {
+
+	background-image: url('../images/mission-background.jpg');
+	height: 700px;
+	width: 1200px;
+	position: relative;
+	top: 69px;
+	display: inline-block;
+
+}
+
+
+.statement {
+
+	background-color: black;
+	position: relative;
+	top: 310px;
+	margin: 0 auto;
+}
+
+.statement h4 {
+
+	font-size: 16px;
+}
+
+
+/*Featured Tea*/
+
+#featured-tea {
+
+	width: 1000px;
+	padding-top: 100px;
+	position: relative;
+	left: 130px;
+	align-content: space-between;
+
+}
+
+.tea-month {
+
+	position: relative;
+	left: 10px;
+}
+
+.tea {
+
+	display: inline-block;
+	height: 200px;
+	width: 300px;
+	flex-wrap: wrap;
+	position: relative;
+	top: 30px;
+}
+
+.tea img {
+
+	display: inline-block;
+	height: 200px;
+	width: 300px;
+}
+
+#tea-list {
+
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-around;
+	justify-content: space-around;
+	margin: auto;
+	position: relative;
+
+}
+
+#tea-list .tea { 
+
+	display: inline-block;
+	align-content: space-around;
+
+
+
+ }
+
+
+
+
+ /*locations*/
+
+ #locations-head {
+
+	position: absolute;
+	top: 30px;
+}
+
+ #locations {
+
+ 	background-image: url('../images/locations-background.jpg');
+ 	width: 1200px;
+ 	height: 550px;
+ 	position: relative;
+ 	top:200px;
+ 	left: 30px;
+
+
+
+ }
+
+ .downtown,
+ .east_bayside,
+ .oakdale {
+
+ 	background-color: black;
+ 	width: 300px;
+ 	height: 300px;
+ 	opacity: 1;
+ 	position: relative;
+ 	top: 200px;
+
+
+ }
+
+ .loca-container {
+
+ 	display: flex;
+ 	flex-direction: row;
+ 	justify-content: space-around;
+ }
+
+
+
